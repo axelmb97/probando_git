@@ -1,0 +1,47 @@
+/*De esta manera los framworks van creando secciones en base a un elemento padre, sin importar cuantos hijos tiene.Se llama sistema de reticula*/
+
+.container, .container-fluid{
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
+    text-align: left;
+    background-color: #ccc;
+}
+
+.container{ max-width: 75rem;}
+
+.item{
+    display: block;
+    text-align: center;
+    background-color: #222;
+}
+/*
+Mi sistema de columnas era de 12
+Osea, mi reticula es de 12 columnas
+Mi base es de 960px(porque se debaja 30 pixeles de cada lado)
+
+12col ---------> 960px
+n-col----------> ???px
+( n-col * 960px) / 12col = resultado en px
+
+( 6 * 960) / 12
+6col ----------> 480px
+
+Ahora, en nuestro proyecto
+Mi recticula es de 12 columnas
+Mi base es de 100%
+( n-col * 100%) / 12col = resultado en %
+*/
+
+.col1{width: 8.33333333333%;}
+.col2{width: 16.6666666667%;}
+.col3{width: 25%;}
+.col4{width: 33.3333333333%;}
+.col5{width: 41.6666666667%;}
+.col6{width: 50%;}
+.col7{width: 58.3333333333%;}
+.col8{width: 66.6666666667%;}
+.col9{width: 75%;}
+.col10{width: 83.3333333333%;}
+.col11{width: 91.6666666667%;}
+.col12{width: 100%;}

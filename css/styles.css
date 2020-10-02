@@ -1,0 +1,22 @@
+.menu{
+    font-size: 0;
+    
+}
+.nav__links, .logo-container{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+.nav__links >li{
+    display: inline-block;
+    
+}
+.main-content{
+    background: transparent;
+}
+article{
+    height: 100vh;
+}
+footer{
+    padding: 1rem;
+}
