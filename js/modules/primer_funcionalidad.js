@@ -9,9 +9,7 @@ export default function detectarDispositivo(){
         if(e.target === $form){
             e.preventDefault()
             $print.textContent = $input.value
-
-
-            e.reset()
+            $input.value = ''
         } 
     })
 }
