@@ -1,2 +1,3 @@
 #Probando git ignore.Los nombres de los archivos que van aqui adentro seran completamente ignorados por git.En caso de que ya hayamos commiteado alguna carpeta que querramos ignorar, debemos seguir otro proceso.
 ignorar.html
+ignorar_2.html
