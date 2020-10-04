@@ -1,3 +1,17 @@
+const d = document
 export default function detectarDispositivo(){
-    console.log('Quiero la caca de nahuel')
+    
+    const $form = d.querySelector('#form'),
+        $input = d.querySelector('input[type="text"]'),
+        $print = d.querySelector('#print')
+    d.addEventListener('submit', e => {
+        
+        if(e.target === $form){
+            e.preventDefault()
+            $print.textContent = $input.value
+
+
+            e.reset()
+        } 
+    })
 }

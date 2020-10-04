@@ -1,4 +1,4 @@
-import {detectarDispositivo} from "./modules/primer_funcionalidad.js"
+import detectarDispositivo from "./modules/primer_funcionalidad.js"
 
 const d = document
 
